@@ -17,7 +17,7 @@ import java.time.LocalDate;
  * Entity representing a Candidate in the recruitment process.
  * This is the database entity that maps to the 'candidates' table.
  */
-@Entity
+@Entity(name = "candidates")
 @Getter
 @Setter
 @NoArgsConstructor
