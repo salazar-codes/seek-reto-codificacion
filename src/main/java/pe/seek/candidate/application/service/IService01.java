@@ -1,4 +1,4 @@
-package pe.seek.candidate.application;
+package pe.seek.candidate.application.service;
 
 import pe.seek.candidate.domain.model.Candidate;
 
