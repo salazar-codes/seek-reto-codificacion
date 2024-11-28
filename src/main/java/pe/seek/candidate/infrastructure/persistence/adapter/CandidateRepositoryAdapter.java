@@ -1,6 +1,7 @@
 package pe.seek.candidate.infrastructure.persistence.adapter;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
 import pe.seek.candidate.domain.model.Candidate;
 import pe.seek.candidate.domain.repository.CandidateRepository;
 import pe.seek.candidate.infrastructure.persistence.entity.CandidateEntity;
@@ -9,6 +10,7 @@ import pe.seek.candidate.infrastructure.persistence.repository.CandidateJpaRepos
 
 import java.util.Optional;
 
+@Repository
 @RequiredArgsConstructor
 public class CandidateRepositoryAdapter implements CandidateRepository {
 
